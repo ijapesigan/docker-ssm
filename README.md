@@ -10,7 +10,7 @@ Ivan Jacob Agaloos Pesigan
 Project](https://github.com/ijapesigan/docker-ssm/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-ssm/actions/workflows/make.yml)
 [![Docker Build and Push
 \[multi\]](https://github.com/ijapesigan/docker-ssm/actions/workflows/docker-build-push-multi.yml/badge.svg)](https://github.com/ijapesigan/docker-ssm/actions/workflows/docker-build-push-multi.yml)
-[![Docker Build and Push SEM \[multi\]
+[![Docker Build and Push SSM \[multi\]
 (Daily)](https://github.com/ijapesigan/docker-ssm/actions/workflows/docker-build-push-daily-multi-ssm.yml/badge.svg)](https://github.com/ijapesigan/docker-ssm/actions/workflows/docker-build-push-daily-multi-ssm.yml)
 [![Shell
 Check](https://github.com/ijapesigan/docker-ssm/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-ssm/actions/workflows/shellcheck.yml)

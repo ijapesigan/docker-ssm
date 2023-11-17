@@ -1,4 +1,4 @@
-name: Docker Build and Push SEM [multi] (Daily)
+name: Docker Build and Push SSM [multi] (Daily)
 
 on:
   schedule:
