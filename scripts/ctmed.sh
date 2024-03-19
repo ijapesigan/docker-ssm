@@ -4,7 +4,7 @@ set -e
 
 R -e "remotes::install_github(      \
     c(                              \
-        'jeksterslab/CTMed'      \
+        'jeksterslab/cTMed'         \
     )                               \
 )"
 
