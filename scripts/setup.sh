@@ -2,7 +2,6 @@
 
 set -e
 
-bash github.sh
 bash rproject.sh
 bash dynr_sys.sh
 bash dynr.sh
