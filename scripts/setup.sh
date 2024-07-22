@@ -10,5 +10,6 @@ bash simstatespace.sh
 bash dynutils.sh
 bash ctmed.sh
 bash fitdtvarmx.sh
+bash fitctvarmx.sh
 bash metavar.sh
 bash post.sh
