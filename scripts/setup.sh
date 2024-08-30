@@ -13,4 +13,5 @@ bash fitdtvarmx.sh
 bash fitctvarmx.sh
 bash metavar.sh
 bash mlvar.sh
+bash rjags.sh
 bash post.sh
