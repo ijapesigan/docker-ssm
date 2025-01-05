@@ -2,6 +2,7 @@
 
 set -e
 
+bash rproject_sys.sh
 bash rproject.sh
 bash dynr_sys.sh
 bash dynr.sh
