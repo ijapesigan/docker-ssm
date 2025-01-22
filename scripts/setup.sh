@@ -11,6 +11,7 @@ bash rjags.sh
 bash rstan.sh
 bash ctsem.sh
 bash simstatespace.sh
+bash boostatespace.sh
 bash dynutils.sh
 bash ctmed.sh
 bash fitdtvarmx.sh
