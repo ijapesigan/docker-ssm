@@ -15,7 +15,7 @@ bash bootstatespace.sh
 bash dynutils.sh
 bash ctmed.sh
 bash fitdtvarmx.sh
-bash fitctvarmx.sh
+# bash fitctvarmx.sh
 bash metavar.sh
 bash mlvar.sh
 bash post.sh
