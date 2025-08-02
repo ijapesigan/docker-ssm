@@ -8,6 +8,7 @@ bash dynr_sys.sh
 bash dynr.sh
 bash rjags_sys.sh
 bash rjags.sh
+bash r2jags.sh
 bash rstan.sh
 bash ctsem.sh
 bash simstatespace.sh
