@@ -29,6 +29,7 @@ bash ctmed.sh
 # bash fitdtvarmx.sh
 # bash fitctvarmx.sh
 bash fitdtvarmxid.sh
+bash fitvarmxid.sh
 bash metadyn.sh
 bash metavar.sh
 bash mlvar.sh
