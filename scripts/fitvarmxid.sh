@@ -2,11 +2,8 @@
 
 set -e
 
-R -e "remotes::install_github(      \
-    c(                              \
-        'jeksterslab/fitVARMxID'      \
-    )                               \
-)"
+install2.r --error --skipinstalled -n -1 \
+    fitVARMxID
 
 R -e "library(fitVARMxID)"
 
