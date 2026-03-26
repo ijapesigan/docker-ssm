@@ -2,11 +2,9 @@
 
 set -e
 
-R -e "remotes::install_github(      \
-    c(                              \
-        'jeksterslab/metaDyn'      \
-    )                               \
-)"
+# metaDyn
+install2.r --error --skipinstalled -n -1 \
+    metaDyn
 
 R -e "library(metaDyn)"
 
