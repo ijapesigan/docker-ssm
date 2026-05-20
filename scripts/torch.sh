@@ -9,7 +9,7 @@ install2.r --error --skipinstalled -n -1 \
     withr                                \
     rlang                                \
     bit64                                \
-    magrittr                             \ 
+    magrittr                             \
     coro                                 \
     callr                                \
     cli                                  \
