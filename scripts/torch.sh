@@ -25,4 +25,6 @@ install2.r --error --skipinstalled -n -1 \
 install2.r --error --skipinstalled -n -1 \
     torch
 
-R -e "Sys.setenv(TORCH_INSTALL = '1', TORCH_CUDATOOLKIT = '12.8'); library(torch); install_torch(); print(cuda_is_available()); print(torch_randn(c(2, 2), device = 'cuda'))"
+R -e "Sys.setenv(TORCH_INSTALL = '1', TORCH_CUDATOOLKIT = '12.8'); library(torch); install_torch(); print(cuda_is_available())"
+
+echo -e "\nInstall torch, done!"
