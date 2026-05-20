@@ -25,7 +25,7 @@ install2.r --error --skipinstalled -n -1 \
 install2.r --error --skipinstalled -n -1 \
     torch
 
-r_arch="$(Rscript -e 'cat(R.version$arch)')"
+r_arch="$(Rscript -e "cat(R.version\$arch)")"
 
 case "${r_arch}" in
     x86_64|amd64)
