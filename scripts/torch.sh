@@ -25,6 +25,17 @@ install2.r --error --skipinstalled -n -1 \
 install2.r --error --skipinstalled -n -1 \
     torch
 
-R -e "Sys.setenv(TORCH_INSTALL = '1', TORCH_CUDATOOLKIT = '12.8'); library(torch); install_torch(); print(cuda_is_available())"
+r_arch="$(Rscript -e 'cat(R.version$arch)')"
+
+case "${r_arch}" in
+    x86_64|amd64)
+        Rscript -e "Sys.setenv(TORCH_INSTALL = '1', TORCH_CUDATOOLKIT = '12.8'); library(torch); install_torch(); print(cuda_is_available())"
+        ;;
+    *)
+        echo "Skipping torch CUDA install on non-x86 R architecture: ${r_arch}"
+        ;;
+esac
+
+R -e "library(torch)"
 
 echo -e "\nInstall torch, done!"

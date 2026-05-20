@@ -1,5 +1,10 @@
 FROM ijapesigan/sem:latest
 
+## torch
+
+ENV TORCH_INSTALL=1
+ENV TORCH_CUDATOOLKIT=12.8
+
 ADD scripts /usr/src/local/src
 RUN --mount=type=secret,id=GITHUB_PAT \
     cd /usr/src/local/src          && \
