@@ -22,8 +22,6 @@ install2.r --error --skipinstalled -n -1 \
 install2.r --error --skipinstalled -n -1 \
     torch
 
-R -e "                                           \
-    library(torch);                              \
-    print(cuda_is_available());                  \
-    print(torch_randn(c(2, 2), device = 'cuda')) \
-"
+R -e "library(torch); print(cuda_is_available()); print(torch_randn(c(2, 2), device = 'cuda'))"
+
+echo -e "\nInstall torch, done!"
