@@ -29,5 +29,4 @@ bash ctmed.sh
 bash fitvarmxid.sh
 bash metadyn.sh
 bash mlvar.sh
-bash torch.sh
 bash post.sh
