@@ -28,5 +28,6 @@ bash dynutils.sh
 bash ctmed.sh
 bash fitvarmxid.sh
 bash metadyn.sh
+bash vars.sh
 bash mlvar.sh
 bash post.sh
