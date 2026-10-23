@@ -18,6 +18,19 @@
 
 project <- "docker-ssm"
 
+type <- "docker"
+
+workflows <- c(
+  "docker-build-push-multi",
+  "docker-build-push-daily-multi"
+)
+
+workflow_daily <- "ssm"
+
+workflow_title <- "Docker Build and Push SSM [multi] (Daily)"
+
+workflow_next <- "ijapesigan/docker-missing"
+
 rproject_ver <- NULL
 
 pkg_cran <- c()
