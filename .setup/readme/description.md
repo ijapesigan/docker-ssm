@@ -1,0 +1,1 @@
+The dynamic and state-space modeling image of the daily chain: built on `ijapesigan/sem`, with dynr (from source), JAGS, Stan, ctsem, simStateSpace, bootStateSpace, dynUtils, cTMed, fitVARMxID, metaDyn, vars, and mlVAR. Its daily build starts `ijapesigan/missing`.
