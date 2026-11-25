@@ -39,6 +39,18 @@ apptainer pull ssm.sif docker://ijapesigan/ssm
 apptainer shell ssm.sif
 ```
 
+## Contents
+
+R packages from CRAN (`scripts/cran.txt`), with their dependencies:
+
+- OpenMx 2.23.1 from the sem image (installs skip it, –skipinstalled):
+  rjags, R2jags, rstan, ctsem, simStateSpace, bootStateSpace, cTMed,
+  fitVARMxID, metaDyn, vars, mlVAR
+
+R packages from GitHub (`scripts/github.txt`), installed after CRAN:
+
+- [jeksterslab/dynUtils](https://github.com/jeksterslab/dynUtils)
+
 ## Builds
 
 - Docker Build and Push SSM \[multi\] (Daily)

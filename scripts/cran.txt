@@ -1,0 +1,19 @@
+# CRAN packages wanted, one per line, never their dependencies
+# (install-cran.sh; their system libraries are looked up by pak)
+
+# from the old package scripts, in their setup.sh order (rjags.sh,
+# r2jags.sh, rstan.sh, ctsem.sh, simstatespace.sh, bootstatespace.sh,
+# ctmed.sh, fitvarmxid.sh, metadyn.sh, vars.sh, mlvar.sh); rjags needs
+# JAGS from rjags_sys.sh, which runs first. fitVARMxID and metaDyn use
+# OpenMx 2.23.1 from the sem image (installs skip it, --skipinstalled)
+rjags
+R2jags
+rstan
+ctsem
+simStateSpace
+bootStateSpace
+cTMed
+fitVARMxID
+metaDyn
+vars
+mlVAR

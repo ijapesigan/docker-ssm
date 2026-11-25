@@ -1,0 +1,4 @@
+# GitHub packages wanted, one per line (owner/repo[@ref]), never their
+# dependencies (install-github.sh, after the CRAN packages)
+
+jeksterslab/dynUtils
